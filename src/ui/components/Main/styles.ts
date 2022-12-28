@@ -1,7 +1,10 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  background-color: #06092b;
+  background: linear-gradient(160.44deg, #6d23b6 1.37%, #47126b 58.45%);
+  box-shadow: inset 10px 10px 20px #9783e3;
+  border-radius: 10px;
+  color: #fff;
   color: #fff;
   width: 100%;
   height: 100%;

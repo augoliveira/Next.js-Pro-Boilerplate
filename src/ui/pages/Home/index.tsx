@@ -1,10 +1,11 @@
-import Main from 'ui/components/Main'
+'use client'
+import Paralax from '#/ui/components/Paralax'
 import * as S from './styles'
 
 export default function Home() {
   return (
     <S.Wrapper>
-      <Main />
+      <Paralax />
     </S.Wrapper>
   )
 }

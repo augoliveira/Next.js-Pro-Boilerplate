@@ -1,4 +1,6 @@
+'use client'
 import LogoSVG from 'assets/svg/LogoSVG'
+import { About } from '../About'
 import * as S from './styles'
 
 const Main = ({
@@ -12,6 +14,7 @@ const Main = ({
 
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>
+    <About />
   </S.Wrapper>
 )
 
