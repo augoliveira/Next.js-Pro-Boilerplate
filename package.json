@@ -21,10 +21,19 @@
     ]
   },
   "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+		"@testing-library/react": "^9.3.2",
+		"@testing-library/user-event": "^7.1.2",
+		"framer-motion": "^4.1.17",
     "next": "^13.1.1",
     "next-pwa": "^5.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^3.10.0",
+		"react-intersection-observer": "^8.32.1",
+		"react-scripts": "3.4.2",
+		"react-scroll": "^1.8.3",
+		"react-tilt": "^0.1.4",
     "styled-components": "5.3.6"
   },
   "devDependencies": {

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Wrapper = styled.main`
   background: linear-gradient(160.44deg, #6d23b6 1.37%, #47126b 58.45%);
   box-shadow: inset 10px 10px 20px #9783e3;
-  border-radius: 10px;
+  border-radius: 8px;
   color: #fff;
   color: #fff;
   width: 100%;
@@ -19,10 +19,18 @@ export const Wrapper = styled.main`
 export const Logo = styled.div`
   margin-bottom: 2rem;
   svg {
-    width: 200px;
+    width: 500px;
     fill: white;
   }
   color: white;
+  @keyframes rotate {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
 `
 
 export const Title = styled.h1`

@@ -1,7 +1,6 @@
 'use client'
 import React from 'react'
 import Typewriter from 'typewriter-effect'
-
 import { Container } from '../../../themes/styles'
 import { Content, HomeText } from './styles'
 
@@ -13,7 +12,6 @@ export function HomeHero() {
           <h1>
             AGÊNCIA <code>EXPERT</code>
           </h1>
-
           <h2
             className="cta-5-title"
             style={{ fontFamily: `Montserrat, sans-serif;` }}
@@ -35,7 +33,6 @@ export function HomeHero() {
               }}
             />
           </h2>
-
           <span>
             SOLUÇÕES COMPLETAS PARA CONQUISTAR A PREFERÊNCIA DO SEU CLIENTE
           </span>
