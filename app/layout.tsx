@@ -12,7 +12,7 @@ export default function RootLayout({
       <body>
         <div>
           <GlobalStyles />
-          <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+          {children}
         </div>
       </body>
     </html>
