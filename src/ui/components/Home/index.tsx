@@ -2,19 +2,8 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect'
 
-import { ButtonPrimary, Container } from '../../../themes/styles'
-import { Content, ImgHome, HomeText } from './styles'
-import styled from 'styled-components'
-
-const Wrapper = styled.div`
-  z-index: -1;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  background-color: transparent;
-  justify-content: center;
-  align-items: center;
-`
+import { Container } from '../../../themes/styles'
+import { Content, HomeText } from './styles'
 
 export function HomeHero() {
   return (

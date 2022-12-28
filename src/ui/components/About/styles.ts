@@ -1,5 +1,5 @@
-'use client';
-import styled from 'styled-components';
+'use client'
+import styled from 'styled-components'
 
 export const AboutContainer = styled.section`
   display: flex;
@@ -93,4 +93,4 @@ export const AboutContainer = styled.section`
       font-weight: 500;
     }
   }
-`;
+`
