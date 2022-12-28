@@ -1,6 +1,5 @@
 import StyledComponentsRegistry from '#/../lib/registry'
 import GlobalStyles from '#/themes/global'
-import RootStyleRegistry from './RootStyleRegistry'
 import Head from './head'
 export default function RootLayout({
   children

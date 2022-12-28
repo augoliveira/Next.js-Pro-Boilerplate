@@ -5,16 +5,6 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   transpilePackages: ['@acme/ui', 'lodash-es'],
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'http',
-        hostname: '127.0.0.1',
-        port: '3001',
-        pathname: '/uploads/**'
-      }
-    ]
-  },
   experimental: {
     appDir: true
   }
