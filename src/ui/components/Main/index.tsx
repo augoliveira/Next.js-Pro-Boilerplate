@@ -6,7 +6,6 @@ import * as S from './styles'
 const Main = () => (
   <S.Wrapper>
     <About />
-    <Projects />
   </S.Wrapper>
 )
 

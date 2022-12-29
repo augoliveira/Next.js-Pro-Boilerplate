@@ -17,7 +17,7 @@ const Box = styled.div`
 export const AdvancedBannerTop = () => {
   const background: BannerLayer = {
     children: (
-      <Box>
+      <Box style={{ position: 'relative', width: '1920px', height: '1600px' }}>
         <Image
           src={Bg}
           placeholder="blur"
@@ -55,12 +55,13 @@ export const AdvancedBannerTop = () => {
     children: (
       <Image
         src={BgImg}
-        fill
-        style={{
-          objectFit: 'cover',
-          objectPosition: 'center'
-        }}
+        placeholder="blur"
         quality={100}
+        fill
+        sizes="100vw"
+        style={{
+          objectFit: 'cover'
+        }}
         alt={''}
       />
     ),

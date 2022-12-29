@@ -20,10 +20,10 @@ export function About() {
           <Image
             className="AboutImg"
             src={Sobre}
-            alt="Imagem de perfil Evander"
-            width={500}
-            height={500}
-            priority
+            alt={Title}
+            placeholder="blur"
+            width={700}
+            height={475}
             style={{
               maxWidth: '100%',
               height: 'auto'
