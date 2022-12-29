@@ -2,10 +2,12 @@
 import { ParallaxBanner } from 'react-scroll-parallax'
 import { BannerLayer } from 'react-scroll-parallax/dist/components/ParallaxBanner/types'
 import Image from 'next/image'
-import Bg from '../../../public/bg-slide-1.jpg'
-import BgImg from '../../../public/WebBanne.png'
-import { HomeHero } from './Home'
+import Bg from '../../../../public/bg-slide-1.jpg'
+import BgImg from '../../../../public/WebBanne.png'
+import { HomeHero } from '../Home'
 import styled from 'styled-components'
+import './style'
+import { Wrapper } from './style'
 
 const Box = styled.div`
   width: 100vw;
@@ -42,7 +44,9 @@ export const AdvancedBannerTop = () => {
     expanded: false,
     children: (
       <div className="inset center">
-        <HomeHero />
+        <Wrapper>
+          <HomeHero />
+        </Wrapper>
       </div>
     )
   }

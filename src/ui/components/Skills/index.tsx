@@ -25,7 +25,13 @@ export function Skills() {
         {cardSkills.map((skill) => {
           return (
             <SkillsContent color={skill.color} key={skill.id}>
-              <Image width={60} height={60} src={skill.img} alt={skill.title} />
+              <Image
+                width={60}
+                height={60}
+                src={skill.img}
+                alt={skill.title}
+                priority
+              />
               <h4>{skill.title}</h4>
               <span className="border"></span>
             </SkillsContent>

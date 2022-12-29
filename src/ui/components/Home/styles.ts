@@ -8,7 +8,6 @@ export const Content = styled.div`
   align-items: center;
 
   @media (min-width: 994px) {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;

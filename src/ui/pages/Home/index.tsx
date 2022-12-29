@@ -9,15 +9,18 @@ import { Section } from '#/themes/styles'
 
 export default function Home() {
   return (
-    <S.Wrapper>
-      <Links />
-      <ScrollTop />
+    <>
       <Paralax />
-      <Section>
-        <Contact />
-      </Section>
+      <S.Wrapper>
+        <Links />
+        <ScrollTop />
 
-      <Footer />
-    </S.Wrapper>
+        <Section>
+          <Contact />
+        </Section>
+
+        <Footer />
+      </S.Wrapper>
+    </>
   )
 }

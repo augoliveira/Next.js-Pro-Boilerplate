@@ -23,7 +23,7 @@ export function About() {
             alt="Imagem de perfil Evander"
             width={500}
             height={500}
-            placeholder="blur"
+            priority
             style={{
               maxWidth: '100%',
               height: 'auto'

@@ -1,7 +1,14 @@
 'use client'
 import Link from 'next/link'
+import Image from 'next/image'
 import { FiGithub } from 'react-icons/fi'
 import { AllContainer, AllContent, Cubo } from './styles'
+import Html from '../../../../../public/skills/html.svg'
+import React from '../../../../../public/skills/react.svg'
+import javascript from '../../../../../public/skills/javascript.svg'
+import Typescript from '../../../../../public/skills/typescript.svg'
+import Css from '../../../../../public/skills/css.svg'
+import NextJs from '../../../../../public/skills/next-js.svg'
 
 export function AllProjects() {
   return (
@@ -22,22 +29,82 @@ export function AllProjects() {
             <div className="stage-cube-cont">
               <div className="cubespinner">
                 <div className="face1">
-                  <img src="/skills/html.svg" alt="Html" />
+                  <Image
+                    src={Html}
+                    alt="Html"
+                    priority
+                    width={192}
+                    height={192}
+                    style={{
+                      maxWidth: '100%',
+                      height: 'auto'
+                    }}
+                  />
                 </div>
                 <div className="face2">
-                  <img src="/skills/react.svg" alt="React JS" />
+                  <Image
+                    src={React}
+                    alt="React JS"
+                    priority
+                    width={192}
+                    height={192}
+                    style={{
+                      maxWidth: '100%',
+                      height: 'auto'
+                    }}
+                  />
                 </div>
                 <div className="face3">
-                  <img src="/skills/javascript.svg" alt="JavaScript" />
+                  <Image
+                    src={javascript}
+                    alt="JavaScript"
+                    priority
+                    width={192}
+                    height={192}
+                    style={{
+                      maxWidth: '100%',
+                      height: 'auto'
+                    }}
+                  />
                 </div>
                 <div className="face4">
-                  <img src="/skills/typescript.svg" alt="TypeScript" />
+                  <Image
+                    src={Typescript}
+                    alt="TypeScript"
+                    priority
+                    width={192}
+                    height={192}
+                    style={{
+                      maxWidth: '100%',
+                      height: 'auto'
+                    }}
+                  />
                 </div>
                 <div className="face5">
-                  <img src="/skills/css.svg" alt="Css" />
+                  <Image
+                    src={Css}
+                    alt="Css"
+                    priority
+                    width={192}
+                    height={192}
+                    style={{
+                      maxWidth: '100%',
+                      height: 'auto'
+                    }}
+                  />
                 </div>
                 <div className="face6">
-                  <img src="/skills/next-js.svg" alt="Next JS" />
+                  <Image
+                    src={NextJs}
+                    alt="Next JS"
+                    priority
+                    width={192}
+                    height={192}
+                    style={{
+                      maxWidth: '100%',
+                      height: 'auto'
+                    }}
+                  />
                 </div>
               </div>
             </div>
