@@ -30,10 +30,10 @@ export function Contact() {
               <WhatsappLogo size={22} color="#00fffb" /> WhatsApp{' '}
             </h4>
             <Link
-              href="https://api.whatsapp.com/send?phone=5511995085916"
+              href="https://api.whatsapp.com/send?phone=5561986692775"
               target="_blank"
             >
-              <span>+55 11 99508-5916</span>
+              <span>(61) 9 8669-2775)</span>
             </Link>
           </div>
 
@@ -42,8 +42,8 @@ export function Contact() {
               {' '}
               <TelegramLogo size={22} color="#00fffb" /> Email{' '}
             </h4>
-            <Link href="mailto:evander.20112@hotmail.com" target="_blank">
-              <span>evander.20112@hotmail.com</span>
+            <Link href="mailto:contato@upexpert.com.br" target="_blank">
+              <span>contato@upexpert.com.br</span>
             </Link>
           </div>
 
@@ -51,7 +51,7 @@ export function Contact() {
             <h4>
               <MapPin size={22} color="#00fffb" /> Localização
             </h4>
-            <span>Mogi das Cruzes - SP</span>
+            <span>SHS QUADRA 6, SALA 501 Brasília - DF</span>
           </div>
         </ContactContent>
         <Form

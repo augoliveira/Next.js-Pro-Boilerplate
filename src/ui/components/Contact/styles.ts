@@ -104,4 +104,8 @@ export const Form = styled.form`
     padding: 0 0.8em;
     color: var(--first-color);
   }
+  code {
+    font-family: var(--font-mono);
+    font-size: var(--fz-md);
+  }
 `

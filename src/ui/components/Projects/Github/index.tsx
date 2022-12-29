@@ -14,7 +14,7 @@ export function AllProjects() {
   return (
     <>
       <AllContainer>
-        <h4>Todos os projetos</h4>
+        <h2>Todos os projetos</h2>
         <AllContent>
           <Link
             href={'https://github.com/EvanderInacio?tab=repositories'}

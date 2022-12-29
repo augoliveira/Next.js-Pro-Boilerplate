@@ -36,10 +36,7 @@ export function Projects() {
                   alt={project.title}
                   width={1920}
                   height={1080}
-                  style={{
-                    maxWidth: '100%',
-                    height: 'auto'
-                  }}
+                  priority
                 />
                 <div className="title">
                   <h2>{project.title}</h2>

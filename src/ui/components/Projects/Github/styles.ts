@@ -13,7 +13,7 @@ export const AllContainer = styled.div`
   padding-bottom: 5rem;
   max-width: 700px;
 
-  h4 {
+  h2 {
     margin-top: 1rem;
     margin-bottom: 3rem;
     font-weight: 900;

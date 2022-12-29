@@ -12,6 +12,29 @@ export const Content = styled.div`
     justify-content: center;
     align-items: center;
   }
+  @media (max-width: 1080px) {
+    padding: 200px 100px;
+  }
+  @media (max-width: 768px) {
+    padding: 150px 50px;
+  }
+  @media (max-width: 480px) {
+    padding: 125px 25px;
+  }
+
+  &.fillHeight {
+    padding: 0 150px;
+
+    @media (max-width: 1080px) {
+      padding: 0 100px;
+    }
+    @media (max-width: 768px) {
+      padding: 0 50px;
+    }
+    @media (max-width: 480px) {
+      padding: 0 25px;
+    }
+  }
 `
 
 export const ImgHome = styled.div`
