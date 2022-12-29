@@ -1,5 +1,5 @@
-'use client';
-import styled from 'styled-components';
+'use client'
+import styled from 'styled-components'
 
 export const AllContainer = styled.div`
   border-radius: 15px;
@@ -21,7 +21,7 @@ export const AllContainer = styled.div`
     text-align: center;
     color: #00d9ff;
   }
-`;
+`
 
 export const AllContent = styled.div`
   display: flex;
@@ -65,7 +65,7 @@ export const AllContent = styled.div`
       0 0 4em 2em var(--hover-second-color),
       inset 0 0 0.75em 0.25em var(--white);
   }
-`;
+`
 
 export const Cubo = styled.div`
   position: relative;
@@ -146,4 +146,4 @@ export const Cubo = styled.div`
       transform: rotateX(90deg);
     }
   }
-`;
+`

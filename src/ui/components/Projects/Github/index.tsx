@@ -1,7 +1,6 @@
 'use client'
 import Link from 'next/link'
 import { FiGithub } from 'react-icons/fi'
-import { ButtonSecondary } from '#/themes/styles'
 import { AllContainer, AllContent, Cubo } from './styles'
 
 export function AllProjects() {
