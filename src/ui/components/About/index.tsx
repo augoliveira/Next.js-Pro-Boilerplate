@@ -21,9 +21,8 @@ export function About() {
             className="AboutImg"
             src={Sobre}
             alt={Title}
-            placeholder="blur"
             width={700}
-            height={475}
+            height={700}
             style={{
               maxWidth: '100%',
               height: 'auto'

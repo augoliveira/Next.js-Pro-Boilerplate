@@ -20,7 +20,6 @@ export const AdvancedBannerTop = () => {
       <Box style={{ position: 'relative', width: '1920px', height: '1600px' }}>
         <Image
           src={Bg}
-          placeholder="blur"
           quality={100}
           fill
           sizes="100vw"
@@ -55,7 +54,6 @@ export const AdvancedBannerTop = () => {
     children: (
       <Image
         src={BgImg}
-        placeholder="blur"
         quality={100}
         fill
         sizes="100vw"
