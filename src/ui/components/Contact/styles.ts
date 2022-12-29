@@ -1,12 +1,12 @@
-'use client';
-import styled from 'styled-components';
+'use client'
+import styled from 'styled-components'
 
 export const ContainerContact = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-`;
+`
 
 export const ContactContent = styled.div`
   display: flex;
@@ -46,7 +46,7 @@ export const ContactContent = styled.div`
     }
   }
   margin-bottom: 3rem;
-`;
+`
 
 export const Form = styled.form`
   text-align: center;
@@ -104,4 +104,4 @@ export const Form = styled.form`
     padding: 0 0.8em;
     color: var(--first-color);
   }
-`;
+`

@@ -1,5 +1,5 @@
-'use client';
-import styled from 'styled-components';
+'use client'
+import styled from 'styled-components'
 
 export const ProjectsContainer = styled.div`
   display: flex;
@@ -21,7 +21,7 @@ export const ProjectsContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
-`;
+`
 
 export const ProjectsContent = styled.div`
   display: flex;
@@ -81,4 +81,4 @@ export const ProjectsContent = styled.div`
   }
 
   max-width: 22rem;
-`;
+`

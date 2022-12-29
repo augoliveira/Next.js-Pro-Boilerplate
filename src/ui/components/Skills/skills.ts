@@ -1,4 +1,4 @@
-'use client';
+'use client'
 const cardSkills = [
   {
     id: 1,
@@ -48,6 +48,6 @@ const cardSkills = [
     img: '/skills/tailwindcss.svg',
     color: '#38BDF8'
   }
-];
+]
 
-export default cardSkills;
+export default cardSkills

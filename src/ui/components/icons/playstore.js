@@ -1,8 +1,14 @@
-'use client';
-import React from 'react';
+'use client'
+import React from 'react'
 
 const IconPlayStore = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" role="img" x="0px" y="0px" viewBox="0 0 512.001 512.001">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+    x="0px"
+    y="0px"
+    viewBox="0 0 512.001 512.001"
+  >
     <title>Google Play Store</title>
     <path
       d="M464.252,212.09L99.624,8.07C84.247-1.873,64.754-2.691,48.574,5.967C32.183,14.74,22,31.737,22,50.329v411.342
@@ -13,6 +19,6 @@ const IconPlayStore = () => (
       c7.746,4.335,8.583,11.68,8.583,14.637C456.455,258.958,455.62,266.302,447.874,270.637z"
     />
   </svg>
-);
+)
 
-export default IconPlayStore;
+export default IconPlayStore

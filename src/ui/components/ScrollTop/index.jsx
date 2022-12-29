@@ -1,4 +1,4 @@
-'use client';
+'use client'
 import Link from 'next/link'
 import { ArrowUp } from 'phosphor-react'
 import { useState, useEffect } from 'react'
@@ -26,7 +26,7 @@ export function ScrollTop() {
       {up && (
         <Scroll>
           <Link href={'/'} onClick={handleScroll}>
-            <ArrowUp weight='bold' />
+            <ArrowUp weight="bold" />
           </Link>
         </Scroll>
       )}

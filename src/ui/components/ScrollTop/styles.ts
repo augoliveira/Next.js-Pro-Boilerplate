@@ -1,5 +1,5 @@
-'use client';
-import styled from 'styled-components';
+'use client'
+import styled from 'styled-components'
 
 export const Scroll = styled.button`
   position: fixed;
@@ -15,4 +15,4 @@ export const Scroll = styled.button`
   &:hover {
     color: var(--second-color);
   }
-`;
+`

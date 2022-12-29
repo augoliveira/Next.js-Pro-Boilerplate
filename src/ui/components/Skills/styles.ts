@@ -1,5 +1,5 @@
-'use client';
-import styled from 'styled-components';
+'use client'
+import styled from 'styled-components'
 
 export const SkillsContainer = styled.div`
   display: grid;
@@ -17,7 +17,7 @@ export const SkillsContainer = styled.div`
   @media (min-width: 994px) {
     grid-template-columns: repeat(4, 1fr);
   }
-`;
+`
 
 export const SkillsContent = styled.div`
   width: 12rem;
@@ -74,4 +74,4 @@ export const SkillsContent = styled.div`
       border-radius: 20px;
     }
   }
-`;
+`

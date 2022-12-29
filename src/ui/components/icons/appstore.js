@@ -1,5 +1,5 @@
-'use client';
-import React from 'react';
+'use client'
+import React from 'react'
 
 const IconAppStore = () => (
   <svg
@@ -8,7 +8,8 @@ const IconAppStore = () => (
     x="0px"
     y="0px"
     viewBox="0 0 512 512"
-    xmlSpace="preserve">
+    xmlSpace="preserve"
+  >
     <title>Apple App Store</title>
     <g>
       <g>
@@ -47,6 +48,6 @@ const IconAppStore = () => (
       </g>
     </g>
   </svg>
-);
+)
 
-export default IconAppStore;
+export default IconAppStore

@@ -1,15 +1,15 @@
-'use client';
-import Image from 'next/image';
-import { FileCode } from 'phosphor-react';
-import { Container, Title } from '../../styles/styles';
-import cardSkills from './skills';
-import { SkillsContainer, SkillsContent } from './styles';
+'use client'
+import Image from 'next/image'
+import { FileCode } from 'phosphor-react'
+import { Container, Title } from '#/themes/styles'
+import cardSkills from './skills'
+import { SkillsContainer, SkillsContent } from './styles'
 
 interface Skills {
-  title: string;
-  color?: string;
-  img?: string;
-  id: number;
+  title: string
+  color?: string
+  img?: string
+  id: number
 }
 
 export function Skills() {
@@ -25,14 +25,13 @@ export function Skills() {
         {cardSkills.map((skill) => {
           return (
             <SkillsContent color={skill.color} key={skill.id}>
-              {/* eslint-disable-next-line jsx-a11y/alt-text */}
               <Image width={60} height={60} src={skill.img} alt={skill.title} />
               <h4>{skill.title}</h4>
               <span className="border"></span>
             </SkillsContent>
-          );
+          )
         })}
       </SkillsContainer>
     </Container>
-  );
+  )
 }
