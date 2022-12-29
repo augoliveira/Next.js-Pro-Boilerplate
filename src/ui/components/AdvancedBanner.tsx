@@ -29,7 +29,6 @@ export const AdvancedBannerTop = () => {
         />
       </Box>
     ),
-    speed: -20,
     translateY: [0, 50],
     opacity: [1, 0.3],
     scale: [1.05, 1, 'easeOutCubic'],
