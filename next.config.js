@@ -6,6 +6,7 @@ const nextConfig = {
   swcMinify: true,
   transpilePackages: ['@acme/ui', 'lodash-es'],
   experimental: {
+    runtime: 'experimental-edge',
     appDir: true
   }
 }

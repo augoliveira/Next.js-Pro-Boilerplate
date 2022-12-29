@@ -3,14 +3,12 @@ import { ImageResponse } from '@vercel/og'
 export const config = {
   runtime: 'experimental-edge'
 }
-
 const colors = {
   dark: '#353D42',
   black: '#000000',
   white: '#FFFFFF',
   text: '#FFE44C'
 }
-
 export default async function handler() {
   return new ImageResponse(
     (
