@@ -32,6 +32,9 @@
     "react-icons": "^3.10.0",
 		"react-intersection-observer": "^8.32.1",
 		"react-scripts": "3.4.2",
+    "react-responsive-carousel": "^3.2.23",
+    "react-transition-group": "^4.4.5",
+    "react-player": "^2.11.0",
 		"react-scroll": "^1.8.3",
 		"react-tilt": "^0.1.4",
     "styled-components": "5.3.6"

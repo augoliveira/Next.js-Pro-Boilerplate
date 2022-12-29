@@ -11,7 +11,7 @@ const colors = {
   text: '#FFE44C'
 }
 
-const ogImage = () => {
+export default async function () {
   return new ImageResponse(
     (
       <div
@@ -94,5 +94,3 @@ const ogImage = () => {
     }
   )
 }
-
-export default ogImage
