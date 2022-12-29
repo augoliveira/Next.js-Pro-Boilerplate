@@ -11,7 +11,7 @@ const colors = {
   text: '#FFE44C'
 }
 
-export default async function () {
+export default async function handler() {
   return new ImageResponse(
     (
       <div
